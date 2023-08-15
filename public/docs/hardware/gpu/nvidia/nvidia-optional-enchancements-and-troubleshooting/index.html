@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Nvidia Optional Enchancements and Troubleshooting # It can happen that you will fail to load the Nvidia driver in some cases, such as the presence of an integrated intel GPU (build-in on Motherboard). The system can get confused and fail to properly load on the Nvidia Driver, in this case, there is a workaround to force loading Nvidia Driver in the early boot (KMS) state and forcing the loading of modules on the kernel boot option.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Nvidia Optional Enchancements and Troubleshooting" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://example.org/docs/hardware/gpu/nvidia/nvidia-optional-enchancements-and-troubleshooting/" />
+
+<title>Nvidia Optional Enchancements and Troubleshooting | Explore and own your Endeavour</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="stylesheet" href="/book.min.f8de3645fe00591b41524aee174e19edd98a22255a2930a0cdc82a94835ba387.css" integrity="sha256-&#43;N42Rf4AWRtBUkruF04Z7dmKIiVaKTCgzcgqlINbo4c=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.67ad935ad364c63973a808ec654c21d0bd0aef32646fe6bf8a2b408be95f9ff8.js" integrity="sha256-Z62TWtNkxjlzqAjsZUwh0L0K7zJkb&#43;a/iitAi&#43;lfn/g=" crossorigin="anonymous"></script>
+<link rel="alternate" type="application/rss+xml" href="http://example.org/docs/hardware/gpu/nvidia/nvidia-optional-enchancements-and-troubleshooting/index.xml" title="Explore and own your Endeavour" />
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><img src="/favicon.ico" alt="Logo" /><span>Explore and own your Endeavour</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-f025bf30664ad41c1838b0e534fd0a70" class="toggle"  />
+    <label for="section-f025bf30664ad41c1838b0e534fd0a70" class="flex justify-between">
+      <a role="button" class="">Desktop Environments and Window Managers</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-783344d2ec59d69b3c85b46b97bfaa3b" class="toggle" checked />
+    <label for="section-783344d2ec59d69b3c85b46b97bfaa3b" class="flex justify-between">
+      <a role="button" class="">Hardware</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <span>GPU</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-d4f1f59df97394bd2795eef8e15d9d8d" class="toggle" checked />
+    <label for="section-d4f1f59df97394bd2795eef8e15d9d8d" class="flex justify-between">
+      <a href="/docs/hardware/gpu/nvidia/" class="">Nvidia</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/hardware/gpu/nvidia/envy-control/" class="">Envy Control</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/hardware/gpu/nvidia/nouveau/" class="">Nouveau</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/hardware/gpu/nvidia/nvidia-optimus-notebooks-hybrid-graphics/" class="">Nvidia Optimus Notebooks Hybrid Graphics</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/hardware/gpu/nvidia/nvidia-optional-enchancements-and-troubleshooting/" class="active">Nvidia Optional Enchancements and Troubleshooting</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/hardware/printers/" class="">Printers</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/hardware/webcams/" class="">Webcams</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Nvidia Optional Enchancements and Troubleshooting</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#1-adding-it-to-systemd-boot-options">1. Adding it to systemd-boot options:</a></li>
+        <li><a href="#2-adding-it-to-grub-kernel-line">2. <strong>Adding it to grub kernel line:</strong></a></li>
+        <li><a href="#3-force-early-load-kms">3. Force early load (KMS)</a></li>
+        <li><a href="#4-enhancement-avoid-screen-tearing">4. Enhancement <strong>avoid screen tearing</strong></a></li>
+        <li><a href="#5-xorg-issue-with-framebuffer">5. Xorg issue with <code>framebuffer</code>?</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="nvidia-optional-enchancements-and-troubleshooting">
+  Nvidia Optional Enchancements and Troubleshooting
+  <a class="anchor" href="#nvidia-optional-enchancements-and-troubleshooting">#</a>
+</h1>
+<p><img src="001.webp" alt="" /></p>
+<p>It can happen that you will fail to load the Nvidia driver in some cases, such as the presence of an integrated intel GPU (build-in on Motherboard). The system can get confused and fail to properly load on the Nvidia Driver, in this case, there is a workaround to force loading Nvidia Driver in the early boot (KMS) state and forcing the loading of modules on the kernel boot option. Mainly for use on dedicated GPU-Cards (PCIe Cards on Desktop PC or Notebooks with only Nvidia GPU [non-hybrid] ). It can cause issues for hybrid systems (<a href="https://discovery.endeavouros.com/nvidia/nvidia-optimus-notebooks-hybrid-graphics/2021/03/">optimus</a>)!</p>
+<ul>
+<li>For example: On Cinnamon you will see a message that you run in Software Rendering Mode, or the system simply boots to a black screen.. not starting X … no Login Manager starting</li>
+</ul>
+<p>If you have this issue there are two ways to load the needed modules early in the boot process to have them fully initialized when reaching X. Adding it to grub kernel line or using kernel-images (Force early load [KMS]):</p>
+<h3 id="1-adding-it-to-systemd-boot-options">
+  1. Adding it to systemd-boot options:
+  <a class="anchor" href="#1-adding-it-to-systemd-boot-options">#</a>
+</h3>
+<p><code>sudo nano /etc/kernel/cmdline</code></p>
+<p><strong>nvidia-drm.modeset=1</strong> to the one line inside the file (adding it not replacing anything)</p>
+<p><img src="002.webp" alt="" /></p>
+<p>adding modesetting option to systemd-boot installs</p>
+<p>and rebuild kernel images:</p>
+<p><code>sudo reinstall-kernels</code></p>
+<h3 id="2-adding-it-to-grub-kernel-line">
+  2. <strong>Adding it to grub kernel line:</strong>
+  <a class="anchor" href="#2-adding-it-to-grub-kernel-line">#</a>
+</h3>
+<p>to change configuration and rebuild grub.cfg and kernel boot images :</p>
+<p>adding <strong>nvidia-drm.modeset=1</strong> to the kernel parameter inside grub:</p>
+<pre><code>sudo nano /etc/default/grub
+</code></pre>
+<p>and put <strong>nvidia-drm.modeset=1</strong> inside (leave the rest untouched!!) as you can see here:</p>
+<pre><code># GRUB boot loader configuration
+
+GRUB_DEFAULT=0 GRUB_TIMEOUT=5
+
+GRUB_DISTRIBUTOR=&quot;EndeavourOS&quot;
+
+GRUB_CMDLINE_LINUX_DEFAULT=&quot;nvidia-drm.modeset=1 resume=UUID=...
+</code></pre>
+<p>save the file <strong>[Ctrl+X]</strong> and rebuild the grub.cfg:</p>
+<pre><code>sudo grub-mkconfig -o /boot/grub/grub.cfg
+</code></pre>
+<h3 id="3-force-early-load-kms">
+  3. Force early load (KMS)
+  <a class="anchor" href="#3-force-early-load-kms">#</a>
+</h3>
+<p>In most cases when you can not reach the DM (loginmanager lightdm/GDM/SDDM) it needs to force to load nvidia drivers on early boot. To do so:</p>
+<p><strong>For dracut installs (deafult up from cassini release)</strong>:</p>
+<p>create a dropin config:</p>
+<p><code>sudo nano /etc/dracut.conf.d/nvidia.conf</code></p>
+<p>and add the following line:</p>
+<p>add_drivers+=” nvidia nvidia-drm nvidia-modeset nvidia-uvm ”</p>
+<p>rebuild kernel images:</p>
+<p><code>sudo reinstall-kernels</code></p>
+<p><strong>for mkinitcpio usage:</strong></p>
+<p>edit mkinitcpio.conf to get the module inside:</p>
+<pre><code>sudo nano /etc/mkinitcpio.conf
+</code></pre>
+<p>and edit like this:</p>
+<pre><code># vim:set ft=sh
+
+# MODULES
+
+# The following modules are loaded before any boot hooks are
+
+# run. Advanced users may wish to specify all system modules
+
+# in this array. For instance:
+
+# MODULES=&quot;piix ide_disk reiserfs&quot;
+
+MODULES=&quot;nvidia nvidia_modeset nvidia_uvm nvidia_drm&quot;
+
+# BINARIES ....
+</code></pre>
+<p>save the file as above…</p>
+<p>rebuild kernel image:</p>
+<pre><code>sudo mkinitcpio -P
+</code></pre>
+<p>reboot again and you should have early boot enabled…</p>
+<h3 id="4-enhancement-avoid-screen-tearing">
+  4. Enhancement <strong>avoid screen tearing</strong>
+  <a class="anchor" href="#4-enhancement-avoid-screen-tearing">#</a>
+</h3>
+<p>Have nvidia-settings installed and run it on login with tagging option <strong>FullCompositingPipeline</strong> to get better video quality, this works for a single display setup. If you have more, you need to add them to the command or option line, for this take a look at the arch-wiki page linked here.</p>
+<pre><code>nvidia-settings --assign CurrentMetaMode=&quot;nvidia-auto-select +0+0 { ForceFullCompositionPipeline = On }&quot;
+</code></pre>
+<p><a href="https://wiki.archlinux.org/index.php/NVIDIA/Troubleshooting#Avoid_screen_tearing">https://wiki.archlinux.org/index.php/NVIDIA/Troubleshooting#Avoid_screen_tearing</a></p>
+<p>You can add this to <strong>/etc/X11/xorg.conf.d/20-nvidia.conf</strong> like this:</p>
+<pre><code>Section &quot;Device&quot;
+    Identifier &quot;Nvidia Card&quot;
+    Driver &quot;nvidia&quot;
+    VendorName &quot;NVIDIA Corporation&quot;
+EndSection
+
+Section &quot;Screen&quot;
+        Identifier      &quot;nvidia&quot;
+        Option         &quot;metamodes&quot; &quot;nvidia-auto-select +0+0 { ForceFullCompositionPipeline = On }&quot;
+        Option          &quot;TripleBuffer&quot;                  &quot;on&quot;
+        Option          &quot;AllowIndirectGLXProtocol&quot;      &quot;off&quot;
+EndSection
+</code></pre>
+<p>In some cases like using Plasma and SDDM it can be that you need to set DPI settings on multi-display setups.</p>
+<p>The easiest way around this is to set DPI in <strong>.Xresources</strong> to do so:</p>
+<p><code>sudo nano ~/.Xrescources</code> and add DPI settings.</p>
+<p><strong><code>Xft.dpi:     96</code></strong></p>
+<p>On KDE, this can be achieved by adding the following section to <code>/etc/sddm.conf</code> (create the file if it does not exist) :</p>
+<pre><code>[X11]
+ServerArguments=-nolisten tcp -dpi 96
+</code></pre>
+<p><strong><em>Replace 96 by your desired DPI value.</em></strong></p>
+<p>There is also a PKGBUILD at AUR to build a simple auto starter for full-compositing-pipeline:</p>
+<p><a href="https://github.com/Askannz/nvidia-force-comp-pipeline">https://github.com/Askannz/nvidia-force-comp-pipeline</a></p>
+<p>you can build and install:</p>
+<p>yay -S nvidia-force-comp-pipeline nvidia-settings</p>
+<p>It will check display setup and enable it automatically using nvidia-settings on login to the session.</p>
+<h3 id="5-xorg-issue-with-framebuffer">
+  5. Xorg issue with <code>framebuffer</code>?
+  <a class="anchor" href="#5-xorg-issue-with-framebuffer">#</a>
+</h3>
+<p>System fails to load the server and give error like so:</p>
+<p><code>(EE) cannot run in framebuffer mode. Please specify busIDs for all framebuffer device.</code></p>
+<p>Check if you have unneeded drivers for Xorg installed and uninstall it:</p>
+<p><code>pacman -R xf86-video-fbdev</code></p>
+<p>It is also reported that <code>xf86-video-vesa</code> is not good to be installed in combination with Nvidia drivers.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#1-adding-it-to-systemd-boot-options">1. Adding it to systemd-boot options:</a></li>
+        <li><a href="#2-adding-it-to-grub-kernel-line">2. <strong>Adding it to grub kernel line:</strong></a></li>
+        <li><a href="#3-force-early-load-kms">3. Force early load (KMS)</a></li>
+        <li><a href="#4-enhancement-avoid-screen-tearing">4. Enhancement <strong>avoid screen tearing</strong></a></li>
+        <li><a href="#5-xorg-issue-with-framebuffer">5. Xorg issue with <code>framebuffer</code>?</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

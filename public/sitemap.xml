@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://example.org/docs/desktop-environments-and-window-managers/</loc>
+  </url><url>
+    <loc>http://example.org/docs/hardware/gpu/nvidia/envy-control/</loc>
+  </url><url>
+    <loc>http://example.org/docs/hardware/gpu/</loc>
+  </url><url>
+    <loc>http://example.org/docs/hardware/</loc>
+  </url><url>
+    <loc>http://example.org/docs/hardware/gpu/nvidia/nouveau/</loc>
+  </url><url>
+    <loc>http://example.org/docs/hardware/gpu/nvidia/</loc>
+  </url><url>
+    <loc>http://example.org/docs/hardware/gpu/nvidia/nvidia-optimus-notebooks-hybrid-graphics/</loc>
+  </url><url>
+    <loc>http://example.org/docs/hardware/gpu/nvidia/nvidia-optional-enchancements-and-troubleshooting/</loc>
+  </url><url>
+    <loc>http://example.org/docs/hardware/printers/</loc>
+  </url><url>
+    <loc>http://example.org/docs/hardware/webcams/</loc>
+  </url><url>
+    <loc>http://example.org/</loc>
+  </url><url>
+    <loc>http://example.org/docs/</loc>
+  </url>
+</urlset>

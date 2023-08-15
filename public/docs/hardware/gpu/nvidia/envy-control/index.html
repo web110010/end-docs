@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Envy Control # EnvyControl is a CLI tool that provides an easy way to switch between GPU modes on Nvidia Optimus systems (i.e laptops with hybrid Intel &#43; Nvidia or AMD &#43; Nvidia graphics configurations) under Linux.
+https://github.com/bayasdev/envycontrol
+Features # Written in Python 3&#43; for portability and compatibility
+Supports GDM, SDDM and LightDM display managers
+Save battery with integrated graphics mode
+PCI-Express Runtime D3 (RTD3) Power Management support for Turing and later">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Envy Control" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://example.org/docs/hardware/gpu/nvidia/envy-control/" />
+
+<title>Envy Control | Explore and own your Endeavour</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="stylesheet" href="/book.min.f8de3645fe00591b41524aee174e19edd98a22255a2930a0cdc82a94835ba387.css" integrity="sha256-&#43;N42Rf4AWRtBUkruF04Z7dmKIiVaKTCgzcgqlINbo4c=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.67ad935ad364c63973a808ec654c21d0bd0aef32646fe6bf8a2b408be95f9ff8.js" integrity="sha256-Z62TWtNkxjlzqAjsZUwh0L0K7zJkb&#43;a/iitAi&#43;lfn/g=" crossorigin="anonymous"></script>
+<link rel="alternate" type="application/rss+xml" href="http://example.org/docs/hardware/gpu/nvidia/envy-control/index.xml" title="Explore and own your Endeavour" />
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><img src="/favicon.ico" alt="Logo" /><span>Explore and own your Endeavour</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-f025bf30664ad41c1838b0e534fd0a70" class="toggle"  />
+    <label for="section-f025bf30664ad41c1838b0e534fd0a70" class="flex justify-between">
+      <a role="button" class="">Desktop Environments and Window Managers</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-783344d2ec59d69b3c85b46b97bfaa3b" class="toggle" checked />
+    <label for="section-783344d2ec59d69b3c85b46b97bfaa3b" class="flex justify-between">
+      <a role="button" class="">Hardware</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <span>GPU</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-d4f1f59df97394bd2795eef8e15d9d8d" class="toggle" checked />
+    <label for="section-d4f1f59df97394bd2795eef8e15d9d8d" class="flex justify-between">
+      <a href="/docs/hardware/gpu/nvidia/" class="">Nvidia</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/hardware/gpu/nvidia/envy-control/" class="active">Envy Control</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/hardware/gpu/nvidia/nouveau/" class="">Nouveau</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/hardware/gpu/nvidia/nvidia-optimus-notebooks-hybrid-graphics/" class="">Nvidia Optimus Notebooks Hybrid Graphics</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/hardware/gpu/nvidia/nvidia-optional-enchancements-and-troubleshooting/" class="">Nvidia Optional Enchancements and Troubleshooting</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/hardware/printers/" class="">Printers</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/hardware/webcams/" class="">Webcams</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Envy Control</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#usage">Usage:</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="envy-control">
+  Envy Control
+  <a class="anchor" href="#envy-control">#</a>
+</h1>
+<p><img src="001.webp" alt="" /></p>
+<p>EnvyControl is a <strong>CLI</strong> tool that provides an easy way to switch between GPU modes on Nvidia Optimus systems (i.e laptops with hybrid Intel + Nvidia or AMD + Nvidia graphics configurations) under Linux.</p>
+<p><a href="https://github.com/bayasdev/envycontrol">https://github.com/bayasdev/envycontrol</a></p>
+<h2 id="features">
+  Features
+  <a class="anchor" href="#features">#</a>
+</h2>
+<ul>
+<li>
+<p>Written in Python 3+ for portability and compatibility</p>
+</li>
+<li>
+<p>Supports GDM, SDDM and LightDM display managers</p>
+</li>
+<li>
+<p>Save battery with integrated graphics mode</p>
+</li>
+<li>
+<p>PCI-Express Runtime D3 (RTD3) Power Management support for Turing and later</p>
+</li>
+<li>
+<p>Coolbits support for GPU overclocking</p>
+</li>
+<li>
+<p>Fix screen tearing with ForceCompositionPipeline</p>
+</li>
+<li>
+<p>works for both dracut and mkinitcpio</p>
+</li>
+</ul>
+<p><strong>The tool offers 3 Graphics modes:</strong></p>
+<p><a href="https://github.com/bayasdev/envycontrol/blob/main/README.md#integrated"></a><strong>Integrated:</strong> The integrated Intel or AMD iGPU is used exclusively</p>
+<p><strong>Hybrid:</strong> Enables PRIME render offloading</p>
+<p><strong>Nvidia:</strong> The Nvidia dGPU is used exclusively</p>
+<p>detailed info here: <a href="https://github.com/bayasdev/envycontrol/blob/main/README.md#-graphics-modes">README.md#-graphics-modes</a></p>
+<p>You will find an <a href="https://aur.archlinux.org/packages/envycontrol">AUR PKGBUILD</a> and can install it over yay:</p>
+<pre><code>yay -S envycontrol
+</code></pre>
+<p>to run it use this commandline and check the usage box for options (graphics modes):</p>
+<pre><code>sudo envycontrol -s &lt;MODE&gt;
+</code></pre>
+<h2 id="usage">
+  Usage:
+  <a class="anchor" href="#usage">#</a>
+</h2>
+<pre><code>usage: envycontrol.py [-h] [-v] [-q] [-s MODE] [--dm DISPLAY_MANAGER] [--force-comp] [--coolbits [VALUE]] [--rtd3 [VALUE]] [--reset-sddm] [--reset] [--verbose]
+
+options:
+  -h, --help            show this help message and exit
+  -v, --version         Output the current version
+  -q, --query           Query the current graphics mode
+  -s MODE, --switch MODE
+                        Switch the graphics mode. Available choices: integrated, hybrid, nvidia
+  --dm DISPLAY_MANAGER  Manually specify your Display Manager for Nvidia mode. Available choices: gdm, gdm3, sddm, lightdm
+  --force-comp          Enable ForceCompositionPipeline on Nvidia mode
+  --coolbits [VALUE]    Enable Coolbits on Nvidia mode. Default if specified: 28
+  --rtd3 [VALUE]        Setup PCI-Express Runtime D3 (RTD3) Power Management on Hybrid mode. 
+                    Available choices: 0, 1, 2, 3. Default if specified: 2
+  --reset-sddm          Restore default Xsetup file
+  --reset               Revert changes made by EnvyControl
+  --verbose             Enable verbose mode
+</code></pre>
+<p>for detailed help and info on how to use this awesome tool read the detailed wiki at the source:</p>
+<p><a href="https://github.com/bayasdev/envycontrol/blob/main/README.md">https://github.com/bayasdev/envycontrol/blob/main/README.md</a></p>
+<p>EnvyControl <a href="https://github.com/bayasdev/envycontrol/wiki/Frequently-Asked-Questions">Frequently-Asked-Questions</a> have also a lot of good information.</p>
+<p>Thank’s <a href="https://github.com/bayasdev">@VictorBayas</a> at the telegram chat to hint me on his helpful tool perfectly fitting for EndeavourOS indeed!</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#usage">Usage:</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
