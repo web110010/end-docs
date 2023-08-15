@@ -1,12 +1,11 @@
 ---
-title: "Desktop Environments and Window Managers"
-weight: 1
+title: "Forum"
+weight: 3
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false
-# bookCollapseSection: true
+# bookCollapseSection: false
 # bookComments: false
 # bookSearchExclude: false
+bookherf: "https://forum.endeavouros.com/"
 ---
-
-test flat page

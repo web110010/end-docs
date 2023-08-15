@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Links on Explore and own your Endeavour</title>
+    <link>http://example.org/docs/links/</link>
+    <description>Recent content in Links on Explore and own your Endeavour</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Aug 2023 17:20:50 +0530</lastBuildDate><atom:link href="http://example.org/docs/links/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
